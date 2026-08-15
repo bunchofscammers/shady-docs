@@ -11,32 +11,26 @@ export default function Home() {
     >
       <main className={styles.hero}>
         <div className="container">
-          <p className={styles.eyebrow}>
-            Looks suspicious. Behaves responsibly.
-          </p>
           <Heading as="h1">Professionally untrustworthy interfaces.</Heading>
           <p className={styles.lead}>
-            ShadyUI is an emerging, framework-agnostic component standard
-            inspired by fake reward generators and the wonderfully questionable
-            corners of the web.
+            Scammy internet culture, packaged as reusable components for every
+            framework.
           </p>
           <div className={styles.actions}>
             <Link
               className="button button--primary button--lg"
               to="/docs/intro"
             >
-              Read the vision
+              Read the docs
             </Link>
             <Link
               className="button button--secondary button--lg"
               href="https://github.com/bunchofscammers"
             >
-              Follow development
+              Browse GitHub
             </Link>
           </div>
-          <p className={styles.status}>
-            Pre-alpha infrastructure. Components are coming later.
-          </p>
+          <p className={styles.status}>Built for fun. That&apos;s it.</p>
         </div>
       </main>
     </Layout>
